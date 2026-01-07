@@ -2,15 +2,12 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Vĩnh Long Mart – Trung tâm đặc sản xứ dừa Bến Tre</title>
+    <title>Vĩnh Long Mart – Đặc sản xứ dừa Bến Tre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO cơ bản -->
-    <meta name="description" content="Vĩnh Long Mart – Trung tâm đặc sản xứ dừa Bến Tre. Website đang trong quá trình xây dựng, mong Quý khách thông cảm và quay lại sau khi hoàn thiện.">
-    <meta name="keywords" content="Vĩnh Long Mart, đặc sản Bến Tre, đặc sản miền Tây, xứ dừa, quà quê">
+    <meta name="description" content="Vĩnh Long Mart – Đặc sản xứ dừa Bến Tre. Website đang trong quá trình xây dựng.">
     <meta name="author" content="Vĩnh Long Mart">
 
-    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <style>
@@ -31,32 +28,38 @@
         }
 
         .box {
-            max-width: 860px;
+            max-width: 900px;
             background: #ffffff;
             border-radius: 20px;
-            padding: 50px 40px;
+            padding: 40px 36px;
             text-align: center;
             box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+        }
+
+        .banner img {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 30px;
         }
 
         .logo {
             font-size: 52px;
             font-weight: 800;
-            color: #ff5a1f; /* cam logo */
-            margin-bottom: 12px;
+            color: #ff5a1f;
+            margin-bottom: 10px;
         }
 
         .slogan {
             font-size: 26px;
             font-weight: 700;
-            color: #8a2be2; /* tím logo */
-            margin-bottom: 36px;
+            color: #8a2be2;
+            margin-bottom: 32px;
         }
 
         .notice {
             font-size: 22px;
             line-height: 1.7;
-            margin-bottom: 30px;
+            margin-bottom: 28px;
         }
 
         .highlight {
@@ -66,8 +69,7 @@
 
         .info {
             font-size: 20px;
-            color: #444;
-            margin-bottom: 30px;
+            margin-bottom: 28px;
             line-height: 1.7;
         }
 
@@ -75,32 +77,40 @@
             background: #fff0f6;
             border: 2px dashed #ff7aa2;
             border-radius: 16px;
-            padding: 28px 24px;
+            padding: 26px 22px;
             margin: 30px 0;
             font-size: 20px;
-            line-height: 1.8;
+            line-height: 1.9;
+            text-align: left;
         }
 
-        .order-box strong {
-            color: #d6336c;
+        .order-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
         }
 
-        .order-box a {
+        .order-item img {
+            width: 34px;
+            height: 34px;
+            margin-right: 12px;
+        }
+
+        .order-item a {
             color: #1d3557;
-            text-decoration: none;
             font-weight: 700;
+            text-decoration: none;
         }
 
         .contact {
-            margin-top: 28px;
+            margin-top: 26px;
             font-size: 20px;
-            line-height: 1.8;
         }
 
         .contact a {
             color: #0b5ed7;
-            text-decoration: none;
             font-weight: 700;
+            text-decoration: none;
         }
 
         footer {
@@ -110,18 +120,9 @@
         }
 
         @media (max-width: 600px) {
-            .logo {
-                font-size: 38px;
-            }
-            .slogan {
-                font-size: 22px;
-            }
-            .notice,
-            .info,
-            .order-box,
-            .contact {
-                font-size: 18px;
-            }
+            .logo { font-size: 38px; }
+            .slogan { font-size: 22px; }
+            .notice, .info, .order-box, .contact { font-size: 18px; }
         }
     </style>
 </head>
@@ -130,49 +131,64 @@
 <div class="container">
     <div class="box">
 
+        <!-- BANNER -->
+        <div class="banner">
+            <img src="images/Facebook website banner.png" alt="Vĩnh Long Mart banner">
+        </div>
+
         <!-- TÊN & SLOGAN -->
         <div class="logo">Vĩnh Long Mart</div>
-        <div class="slogan">Trung tâm đặc sản xứ dừa Bến Tre</div>
+        <div class="slogan">Đặc sản xứ dừa Bến Tre</div>
 
-        <!-- THÔNG BÁO XÂY DỰNG -->
+        <!-- THÔNG BÁO -->
         <div class="notice">
             Website <strong>vinhlongmart.com</strong> hiện đang trong quá trình
-            <span class="highlight">xây dựng và hoàn thiện</span>.<br><br>
-            Rất mong Quý khách thông cảm và
-            <strong>quay lại sau khi website hoàn chỉnh</strong>
-            để có trải nghiệm mua sắm tốt nhất.
+            <span class="highlight">xây dựng và hoàn thiện</span>.<br>
+            Rất mong Quý khách thông cảm và quay lại sau khi website hoàn chỉnh.
         </div>
 
         <!-- GIỚI THIỆU -->
         <div class="info">
-            Vĩnh Long Mart hướng đến việc quy tụ và phân phối
-            các món bánh kẹo – đặc sản truyền thống từ xứ dừa Bến Tre,
-            mang hương vị quê nhà miền Tây đến với khách hàng trên khắp cả nước.
+            Vĩnh Long Mart chuyên phân phối các loại bánh kẹo – đặc sản miền Tây,
+            đặc biệt là các sản phẩm từ xứ dừa Bến Tre, chuẩn vị quê nhà.
         </div>
 
-        <!-- ĐẶT HÀNG TẠM THỜI -->
+        <!-- ĐẶT HÀNG -->
         <div class="order-box">
-            <strong>Trước mắt, kính mời Quý khách đặt hàng qua các kênh:</strong><br>
-            1️⃣ Zalo: <a href="tel:0366633331">0366 633 331</a><br>
-            2️⃣ Shopee: 
-            <a href="https://shopee.vn/mncv3333" target="_blank">
-                shopee.vn/mncv3333
-            </a><br>
-            3️⃣ TikTok Shop: 
-            <a href="https://www.tiktok.com/@mncv3333?_r=1&_t=ZS-92qSztSgTFX" target="_blank">
-                Xem gian hàng
-            </a>
+            <strong>Trước mắt, Quý khách vui lòng đặt hàng qua:</strong><br><br>
+
+            <div class="order-item">
+                <img src="images/zalo.png" alt="Zalo">
+                <span>Zalo: <a href="tel:0366633331">0366 633 331</a></span>
+            </div>
+
+            <div class="order-item">
+                <img src="images/shopee.png" alt="Shopee">
+                <span>Shopee: 
+                    <a href="https://shopee.vn/mncv3333" target="_blank">
+                        shopee.vn/mncv3333
+                    </a>
+                </span>
+            </div>
+
+            <div class="order-item">
+                <img src="images/tiktok.png" alt="TikTok Shop">
+                <span>TikTok Shop: 
+                    <a href="https://www.tiktok.com/@mncv3333?_r=1&_t=ZS-92qSztSgTFX" target="_blank">
+                        Xem gian hàng
+                    </a>
+                </span>
+            </div>
         </div>
 
-        <!-- LIÊN HỆ -->
+        <!-- FANPAGE -->
         <div class="contact">
-            📘 Fanpage Facebook: 
+            📘 Fanpage Facebook:
             <a href="https://www.facebook.com/vinhlongmart" target="_blank">
                 facebook.com/vinhlongmart
             </a>
         </div>
 
-        <!-- FOOTER -->
         <footer>
             © 2026 Vĩnh Long Mart – vinhlongmart.com
         </footer>
